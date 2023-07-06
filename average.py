@@ -1,6 +1,5 @@
-import numpy as np
-
 def average(x, y):
-    avg = np.mean([x,y])
+    avg = (x + y) / 2
     return avg
+
 print(average(3,5))
